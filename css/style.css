@@ -5,9 +5,13 @@ body{
 }
 
 h1{
-    
-    margin: 0; 
+
     display: inline-block;
+    vertical-align: middle;
+}
+
+h3{
+    margin-top: 0;
 }
 
 .Blue_Border{
@@ -40,6 +44,15 @@ h1{
     border-radius: 50%;
 }
 
+.Aggiungi{
+    border-radius: 5px;
+    width: 75px;
+    height: 25px;
+    font-size: 12px;
+    text-align: center;
+    line-height: 25px;
+}
+
 #dv_Logo{
     width: 100%;
     background-color: white;
@@ -48,6 +61,7 @@ h1{
 
 #img_Logo{
     padding: 20px;
+    vertical-align: middle;
 }
 
 #Main_Container{
@@ -58,16 +72,22 @@ h1{
     border-radius: 8px;
 }
 
+span{
+    display: inline-block;
+}
+
 #Add_Task{
     background-color: #47adf1;
-    border-radius: 5px;
     color: white;
 }
 
 #Add_Section{
     background-color: white;
-    border-radius: 5px;
     border: 1px solid #d4d8dc;
     color: lightgray;
 }
 
+.Test{
+    margin-left: 40px;
+    padding-top: 20px;
+}
