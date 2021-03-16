@@ -8,40 +8,59 @@ h1{
 
     display: inline-block;
     vertical-align: middle;
+    font-size: 2.5em;
 }
 
 h3{
     margin-top: 0;
+    margin-bottom: 10px;
+}
+
+span{
+    display: inline-block;
+}
+
+section{
+    margin-bottom: 15px;
+}
+
+a{
+    text-decoration: none;
+    color: inherit;
+}
+
+.Box{
+    border-radius: 5px;
+    width: 50px;
+    height: 20px;
+    font-size: 10px;
+    text-align: center;
+    line-height: 20px;
+    color: white;
 }
 
 .Blue_Border{
     background-color: #47adf1;
-    border-radius: 50%;
 }
 
 .Purple_Border{
     background-color: #9c72e4;
-    border-radius: 50%;
 }
 
 .Pink_Border{
     background-color: #d863a1;
-    border-radius: 50%;
 }
 
 .Orange_Border{
     background-color: #f29e33;
-    border-radius: 50%;
 }
 
 .Green_Border{
     background-color: #64c0a9;
-    border-radius: 50%;
 }
 
 .Light_Green_Border{
     background-color: #b0c926;
-    border-radius: 50%;
 }
 
 .Aggiungi{
@@ -51,6 +70,35 @@ h3{
     font-size: 12px;
     text-align: center;
     line-height: 25px;
+}
+
+.Check::before{
+    content: "\2714";
+    color: #64c0a9;
+    border-radius: 50%;
+    border: 1px solid #64c0a9;
+    font-size: 10px;
+    padding: 1px 2px;
+    margin-right: 10px;
+}
+
+.Cross::before{
+    content: "\2718";
+    color: red;
+    border-radius: 50%;
+    border: 1px solid red;
+    font-size: 10px;
+    padding: 1px 2px;
+    margin-right: 10px;
+}
+
+.ml40-pt20{
+    margin-left: 40px;
+    padding-top: 20px;
+}
+
+.mb20{
+    margin-bottom: 20px;
 }
 
 #dv_Logo{
@@ -72,10 +120,6 @@ h3{
     border-radius: 8px;
 }
 
-span{
-    display: inline-block;
-}
-
 #Add_Task{
     background-color: #47adf1;
     color: white;
@@ -85,9 +129,4 @@ span{
     background-color: white;
     border: 1px solid #d4d8dc;
     color: lightgray;
-}
-
-.Test{
-    margin-left: 40px;
-    padding-top: 20px;
 }
